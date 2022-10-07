@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Product Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/productsa...) format("woff2");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  margin: 5px;
+  color: black;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+ul > a,
+ul > img {
+  padding: 0 8px;
+}
+a:hover {
+  text-decoration: underline;
+}
+.top_img {
+  height: 35px;
+}
+.top_img:hover {
+  box-shadow: 0 0 10px 0 gainsboro;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.sign_in {
+  border-radius: 5px;
+  margin: 10px;
+  color: white;
+  background-color: #1a73e8;
+  height: 35px;
+  width: 100px;
+  border: none;
+}
+
+.sign_in:hover {
+  border: #1a73f9;
+  border-width: 10px;
+  box-shadow: 0 0 20px 0 gainsboro;
+  cursor: pointer;
+  /* background-color: white; */
+  /* color: black; */
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+h1 {
+  font-family: Product Sans;
+
+  font-size: 5.5em;
+}
+
+.input_container {
+  display: flex;
+  border: 1px solid gainsboro;
+  border-radius: 99px;
+  justify-content: space-between;
+  height: 45px;
+  width: 550px;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.search {
+  height: 25px;
+  align-self: center;
+  margin: 10px;
+}
+.low_button {
+  height: 38px;
+  min-width: 130px;
+  /* width: 60px; */
+  background-color: f8f9fa;
+  border: none;
+  margin: 10px;
+  /* margin-right: 10px; */
+}
+.low_button:hover {
+  background-color: 1px solid #dadce0;
+}
+input {
+  border: none;
+}
