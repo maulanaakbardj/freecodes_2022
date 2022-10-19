@@ -1,3 +1,4 @@
+s='cbbd'
 def optimal(s):
     idx,lp=0,s[0]
     while idx<len(s):
@@ -17,7 +18,7 @@ def app2(s):
     """
     m,r='',''
     for i in range(len(s)):
- 
+
         o=ck(s,i,i)
         e=ck(s,i,i+1)
         if len(o)>len(e):
